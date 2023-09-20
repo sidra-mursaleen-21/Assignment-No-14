@@ -1,5 +1,21 @@
 // ARRAYS AND LOOP
 
+// q no 1
+
+// var fruits = ["apple" , "mango" ["pineapple" , "banana"]];
+
+// q no 2
+
+// var num = [
+//   [0, 1, 2, 3],
+//   [1, 0, 1, 2],
+//   [2, 1, 0, 1],
+// ];
+
+// for (var i = 0; i < num.length; i++) {
+//   document.write(num[i].join(" ") + "<br>");
+// }
+
 // q no 3
 
 // for ( var i = 1 ; i <= 10 ; i++){
@@ -69,6 +85,26 @@
 
 // for (var i = 1; i <= 10; i++) {
 //     document.write(i*2 + "K , ");
+// }
+
+// q no 7
+
+// var order = prompt("Welcome to ABC Bakery. What do you want to order Sir/Ma'am :");
+// var flag = false;
+// var a = ["cake" , "apple pie" , "cookie" , "chips" , "patties"];
+
+// for ( var i = 0 ; i < a.length ; i++){
+//     if (order == a[i]){
+//         flag = true ;
+//         document.write(a[i] + " is available at index " + i + " in our bakery.");
+//     }
+// }
+
+// if(flag){
+//     console.log("match");
+// }
+// else{
+//     document.write("We are sorry. " + order + " is not available in our bakery.");
 // }
 
 // q no 8
